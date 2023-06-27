@@ -22,3 +22,7 @@ Passive checking is done by taking a piece of code, and manually running it thro
 * [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 * [Rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 * [Javascript ES6 — Iterables and Iterators](https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4?gi=eeed99cb65f4)
+
+## Requirements
+* Code to be tested using the [Jest Testing Framework](https://jestjs.io/)
+* Code should be analyzed using the linter [ESLint](https://eslint.org/)
