@@ -4,7 +4,7 @@
 * ES6 Promises -> [0x01-ES6_promise](0x01-ES6_promise)
 
 ## Setup
-### Install NodeJS 12,11,x
+### Install NodeJS 12.11.x
 ```
 # in your home directory
 $ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
