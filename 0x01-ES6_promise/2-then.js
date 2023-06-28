@@ -3,7 +3,7 @@ export default function handleResponseFromAPI(promise) {
     if (promise) {
       resolve({ status: 200, body: 'Success' });
     } else {
-      reject(new Error('The fake API is not working currently'));
+      reject(new Error(''));
     }
   }).then(() => {
     console.log('Got a response from the API');
