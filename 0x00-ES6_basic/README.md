@@ -4,7 +4,6 @@
 ### Modern Javascript
 
 ### Software Linter
-#### Definition
 A software linter also known as a “linter” is a tool used to identify and report potential issues (syntax errors, undeclared variables, etc.) in a program. It can even report convention or style inconsistencies. It does so by highlighting them so that the programmer is aware, so changes can be made. There are a wide variety of linters as well as lint rules for specific programming languages and even for software frameworks.
 
 There are typically two ways to lint code:
