@@ -25,3 +25,6 @@ Passive checking is done by taking a piece of code, and manually running it thro
 ## Requirements
 * Code to be tested using the [Jest Testing Framework](https://jestjs.io/)
 * Code should be analyzed using the linter [ESLint](https://eslint.org/)
+
+## Tasks
+![tasks](./0x00.png)
