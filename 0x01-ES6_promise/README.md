@@ -11,3 +11,6 @@
 * Code should be analyzed using the linter [ESLint](https://eslint.org/)
 
 NB: ***Don’t forget to run `$ npm install` when you have the `package.json`***
+
+## Tasks
+![0x01](./0x01.png)
