@@ -1,7 +1,8 @@
 # Back-end - Modern Javascript
-* ES6 basics -> [0x00-ES6_basic](0x00-ES6_basic)
-* ES6 promises -> [0x01-ES6_promise](0x01-ES6_promise)
+* ES6 basics -> [0x00-ES6_basic](./0x00-ES6_basic)
+* ES6 promises -> [0x01-ES6_promise](./0x01-ES6_promise)
 * ES6 classes -> [0x02-ES6_classes](./0x02-ES6_classes)
+* ES6 data manipulation -> [0x03-ES6_data_manipulation](./0x03-ES6_data_manipulation)
 
 ## Setup
 ### Install NodeJS 12.11.x
