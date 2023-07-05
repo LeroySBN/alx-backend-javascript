@@ -3,6 +3,7 @@
 * ES6 promises -> [0x01-ES6_promise](./0x01-ES6_promise)
 * ES6 classes -> [0x02-ES6_classes](./0x02-ES6_classes)
 * ES6 data manipulation -> [0x03-ES6_data_manipulation](./0x03-ES6_data_manipulation)
+* Typescript -> [0x04-TypeScript](./0x04-TypeScript)
 
 ## Setup
 ### Install NodeJS 12.11.x
