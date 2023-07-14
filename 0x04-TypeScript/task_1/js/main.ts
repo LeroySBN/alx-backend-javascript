@@ -4,7 +4,7 @@ interface Teacher {
   fullTimeEmployee: boolean;
   yearsOfExperience?: number;
   location: string;
-  [key: string]: any;
+  [propName: string]: any;
 }
 
 interface Directors extends Teacher {
@@ -12,6 +12,7 @@ interface Directors extends Teacher {
 }
 
 interface printTeacherFunction {
+  (firstName: string, lastName: string): string;
 }
 
 const printTeacher: printTeacherFunction = (firstName: string, lastName: string): string => {
@@ -41,3 +42,5 @@ class StudentClass implements StudentClassInterface {
     return this.firstName;
   }
 }
+
+export {StudentClass, StudentConstructor, printTeacher, Directors, Teacher};

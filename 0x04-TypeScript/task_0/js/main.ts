@@ -20,7 +20,7 @@ const student2: Student = {
 };
 
 const studentsList: Array<Student> = [student1, student2];
-// const studentsList2: Student[] = [student1, student2];
+// const studentsList: Student[] = [student1, student2];
 
 const table: HTMLTableElement = document.createElement("table");
 const tbody: HTMLTableSectionElement = document.createElement("tbody");
@@ -40,3 +40,5 @@ studentsList.forEach((student) => {
 
 table.appendChild(tbody);
 document.body.appendChild(table);
+
+export { Student, studentsList };
