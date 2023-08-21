@@ -2,9 +2,9 @@
 
 namespace Subjects {
   export class Subject {
-    private teacher: Teacher | undefined;
+    teacher: Teacher;
 
-    public setTeacher(teacher: Teacher): void {
+    setTeacher(teacher: Teacher) {
       this.teacher = teacher;
     }
   }

@@ -4,6 +4,7 @@
 * ES6 classes -> [0x02-ES6_classes](./0x02-ES6_classes)
 * ES6 data manipulation -> [0x03-ES6_data_manipulation](./0x03-ES6_data_manipulation)
 * Typescript -> [0x04-TypeScript](./0x04-TypeScript)
+* NodeJS Basics -> [0x05-Node_JS_basic](./0x05-Node_JS_basic)
 
 ## Setup
 ### Install NodeJS 12.11.x

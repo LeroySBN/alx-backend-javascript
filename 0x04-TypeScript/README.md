@@ -9,4 +9,9 @@
 * The Typescript compiler should not show any warning or error when compiling your code
 
 ## Tasks
-![0x04](./0x04.png)
+<details>
+<summary></summary>
+<div style="width: 100%;">
+<img src="./0x04.png" style="width: 100%; height: auto;">
+</div>
+</details>

@@ -52,4 +52,4 @@ const teachClass = (todayClass: Subjects): string => {
   }
 };
 
-export { Director, Teacher, createEmployee, isDirector, executeWork, teachClass };
+export { Director, Teacher, createEmployee, isDirector, executeWork, teachClass, Subjects };

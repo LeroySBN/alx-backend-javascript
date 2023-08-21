@@ -6,11 +6,11 @@ namespace Subjects {
   }
 
   export class Cpp extends Subject {
-    public getRequirements(): string {
+    getRequirements(): string {
       return "Here is the list of requirements for Cpp";
     }
 
-    public getAvailableTeacher(): string {
+    getAvailableTeacher(): string {
       if (this.teacher && this.teacher.experienceTeachingC) {
         return `Available Teacher: ${this.teacher.firstName}`;
       } else {

@@ -6,11 +6,11 @@ namespace Subjects {
   }
 
   export class React extends Subject {
-    public getRequirements(): string {
+    getRequirements(): string {
       return "Here is the list of requirements for React";
     }
 
-    public getAvailableTeacher(): string {
+    getAvailableTeacher(): string {
       if (this.teacher && this.teacher.experienceTeachingReact) {
         return `Available Teacher: ${this.teacher.firstName}`;
       } else {
