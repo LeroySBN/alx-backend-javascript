@@ -1,5 +1,4 @@
-// reads the database asynchronously
-// and returns a Promise
+// reads the database asynchronously and returns a Promise
 import fs from 'fs';
 
 function readDatabase() {
