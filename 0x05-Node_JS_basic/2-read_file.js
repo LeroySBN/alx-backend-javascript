@@ -4,26 +4,32 @@ const fs = require('fs');
 function countStudents(path) {
   try {
     const data = fs.readFileSync(path, 'utf8');
-    let lines = data.split('\n');
-    // const fields = lines[0].split(',');
-    // console.log(fields);
-    lines = lines.slice(1, lines.length);
-    // console.log(lines);
-    console.log(`Number of students: ${lines.length}`);
-    const students = {};
-    for (const line of lines) {
-      if (line.length > 0) {
-        const student = line.split(',');
-        const field = student[3];
-        if (!students[field]) {
-          students[field] = [];
-        }
-        students[field].push(student[0]);
+    console.log(data);
+    const lines = data.split('\n').filter((line) => line.trim() !== ''); // Remove empty lines
+    console.log(lines);
+    const header = lines.shift();
+    console.log(header);
+    const headers = header.split(',');
+    const fieldIndex = headers.indexOf('field');
+    console.log(fieldIndex);
+    const firstnameIndex = headers.indexOf('firstname');
+    const studentsByField = {};
+    lines.forEach((line) => {
+      const columns = line.split(',');
+      console.log(columns);
+      const field = columns[fieldIndex];
+      console.log(field);
+      const firstname = columns[firstnameIndex];
+      if (!studentsByField[field]) {
+        studentsByField[field] = [];
       }
-    }
-    // console.log(students);
-    console.log(`Number of students in CS: ${students.CS.length}. List: ${students.CS.join(', ')}`);
-    console.log(`Number of students in SWE: ${students.SWE.length}. List: ${students.SWE.join(', ')}`);
+      studentsByField[field].push(firstname);
+    });
+    console.log('====================================');
+    console.log(`Number of students: ${lines.length}`);
+    Object.entries(studentsByField).forEach(([field, students]) => {
+      console.log(`Number of students in ${field}: ${students.length}. List: ${students.join(', ')}`);
+    });
   } catch (err) {
     throw new Error('Cannot load the database');
   }
