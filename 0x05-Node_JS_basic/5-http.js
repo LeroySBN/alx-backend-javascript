@@ -1,8 +1,7 @@
 // A small HTTP server using Node's HTTP module
 const http = require('http');
-const countStudents = require('./2-read_file');
+const countStudents = require('./3-read_file_async');
 
-const hostname = 'localhost';
 const port = 1245;
 
 const app = http.createServer((req, res) => {
@@ -13,7 +12,7 @@ const app = http.createServer((req, res) => {
     try {
       const studentsInfo = countStudents(process.argv[2]);
       res.writeHead(200, { 'Content-Type': 'text/plain' });
-      res.end(`This is the list of our students\n${studentsInfo}`);
+      res.end(`${studentsInfo}`);
     } catch (err) {
       res.writeHead(500, { 'Content-Type': 'text/plain' });
       res.end('Internal Server Error\n');
@@ -21,6 +20,8 @@ const app = http.createServer((req, res) => {
   }
 });
 
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
 });
+
+module.exports = app;
