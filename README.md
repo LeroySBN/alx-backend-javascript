@@ -5,6 +5,7 @@
 * ES6 data manipulation -> [0x03-ES6_data_manipulation](./0x03-ES6_data_manipulation)
 * Typescript -> [0x04-TypeScript](./0x04-TypeScript)
 * NodeJS Basics -> [0x05-Node_JS_basic](./0x05-Node_JS_basic)
+* Unittests in JS -> [0x06-unittests_in_js](./0x06-unittests_in_js)
 
 ## Setup
 ### Install NodeJS 12.11.x
