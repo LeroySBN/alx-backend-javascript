@@ -4,7 +4,7 @@ class StudentsController {
   static async getAllStudents(req, res) {
     const databasePath = process.argv[2];
     const studentsInfo = await readDatabase(databasePath);
-    res.send(`This is the list of our students\n${studentsInfo}`);
+    res.status(200).send(`This is the list of our students\n${studentsInfo}`);
   }
 
   static async getAllStudentsByMajor(req, res) {
