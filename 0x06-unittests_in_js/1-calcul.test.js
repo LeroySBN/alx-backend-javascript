@@ -1,5 +1,4 @@
 // Test cases for 1-calcul
-/* eslint-disable */
 const assert = require('assert');
 const calculateNumber = require('./1-calcul'); // Replace with the actual path to your function
 
