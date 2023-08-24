@@ -1,5 +1,5 @@
 const sinon = require('sinon');
-const assert = require('assert');
+const { expect } = require('chai');
 const Utils = require('./utils');
 const sendPaymentRequestToApi = require('./3-payment');
 
@@ -11,8 +11,8 @@ describe('sendPaymentRequestToApi', () => {
 
     sendPaymentRequestToApi(100, 20);
 
-    assert.strictEqual(calculateNumberStub.calledWith('SUM', 100, 20), true);
-    assert.strictEqual(consoleLogSpy.calledWith('The total is: 120'), true);
+    expect(calculateNumberStub.calledWith('SUM', 100, 20)).to.be.true;
+    expect(consoleLogSpy.calledWith('The total is: 120')).to.be.true;
 
     calculateNumberStub.restore();
     consoleLogSpy.restore();
