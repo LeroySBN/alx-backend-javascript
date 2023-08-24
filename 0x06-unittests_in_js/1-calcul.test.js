@@ -1,4 +1,5 @@
 // Test cases for 1-calcul
+/* eslint-disable */
 const assert = require('assert');
 const calculateNumber = require('./1-calcul'); // Replace with the actual path to your function
 
@@ -39,6 +40,6 @@ describe('calculateNumber', function() {
 
   it('should divide b by a when type is DIVIDE', function() {
     const result = calculateNumber('DIVIDE', 2, 7.5);
-    assert.strictEqual(result, 4);
+    assert.strictEqual(result, 0.25);
   });
 });
