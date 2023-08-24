@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai-http": "^4.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.11",
@@ -17,8 +16,6 @@
     "@babel/register": "^7.22.5",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "chai": "^4.2.0",
-    "mocha": "^6.2.2",
-    "sinon": "^7.5.0"
+    "mocha": "^6.2.2"
   }
 }
