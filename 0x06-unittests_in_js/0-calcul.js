@@ -5,4 +5,4 @@ function calculateNumber(a, b) {
   return aRounded + bRounded;
 }
 
-module.exports = calculateNumber
+module.exports = calculateNumber;
