@@ -12,6 +12,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.11",
     "@babel/register": "^7.22.5",
+    "chai": "^4.2.0",
     "mocha": "^6.2.2"
   },
   "repository": {
