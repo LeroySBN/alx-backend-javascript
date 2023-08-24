@@ -13,8 +13,6 @@ function calculateNumber(type, a, b) {
         return 'Error';
       }
       return roundedA / roundedB;
-    default:
-      throw new Error('Invalid type');
   }
 }
 
