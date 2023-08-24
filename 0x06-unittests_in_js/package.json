@@ -2,7 +2,7 @@
   "name": "0x06-unittests_in_js",
   "version": "1.0.0",
   "description": "* [Mocha documentation](https://mochajs.org/) * [Chai](https://www.chaijs.com/api/) * [Sinon](https://sinonjs.org/) * [Express](https://expressjs.com/en/guide/routing.html) * [Request](https://www.npmjs.com/package/request) * [How to Test NodeJS Apps using Mocha, Chai and SinonJS](https://www.digitalocean.com/community/tutorials/how-to-test-nodejs-apps-using-mocha-chai-and-sinonjs)",
-  "main": ".eslintrc.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -13,7 +13,8 @@
     "@babel/core": "^7.22.11",
     "@babel/register": "^7.22.5",
     "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0"
   },
   "repository": {
     "type": "git",
