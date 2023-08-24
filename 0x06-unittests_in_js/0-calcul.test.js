@@ -1,4 +1,4 @@
-/* eslint-disable */
+// Test cases for module 0-calcul
 const assert = require('assert');
 const calculateNumber = require('./0-calcul');
 
