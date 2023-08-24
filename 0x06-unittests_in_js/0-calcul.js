@@ -1,8 +1,4 @@
 // Rounds and sums to numbers
-function calculateNumber(a, b) {
-  const aRounded = Math.round(a);
-  const bRounded = Math.round(b);
-  return aRounded + bRounded;
-}
+const calculateNumber = (a, b) => Math.round(a) + Math.round(b);
 
 module.exports = calculateNumber;
