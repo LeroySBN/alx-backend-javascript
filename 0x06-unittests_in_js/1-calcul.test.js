@@ -24,9 +24,9 @@ describe('calculateNumber', function() {
     assert.strictEqual(result, 'Error');
   });
 
-  // it('should throw an error for invalid type', function() {
-  //   assert.throws(() => calculateNumber('INVALID', 1, 2), Error, 'Invalid type');
-  // });
+  it('should throw an error for invalid type', function() {
+    assert.throws(() => calculateNumber('INVALID', 1, 2), Error, 'Invalid type');
+  });
 
   it('should add two rounded negative numbers when type is SUM', function() {
     const result = calculateNumber('SUM', -3.7, -2.1);
