@@ -1,8 +1,7 @@
 // Test cases for 1-calcul
 
-const assert = require('chai').expect;
 const { expect } = require('chai');
-const calculateNumber = require('./1-calcul'); // Replace with the actual path to your function
+const calculateNumber = require('./2-calcul_chai');
 
 describe('calculateNumber', () => {
   it('should add two rounded positive numbers when type is SUM', () => {
